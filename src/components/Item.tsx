@@ -4,6 +4,7 @@ import image1 from "../assets/IMG_5340.jpg";
 interface ItemProps {
   name: string;
   price: string;
+  dimensions?: string;
 }
 
 export default function Item(props: ItemProps) {
